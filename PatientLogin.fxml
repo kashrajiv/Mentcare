@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="542.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mentcare4.PatientLoginController">
+   <children>
+      <TextField fx:id="userName" layoutX="187.0" layoutY="118.0" />
+      <TextField fx:id="password" layoutX="187.0" layoutY="166.0" />
+      <Button layoutX="204.0" layoutY="262.0" mnemonicParsing="false" onAction="#PatientLogin_OnClick" text="Log In" />
+      <Text layoutX="89.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text layoutX="91.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text fill="#2e5ec6" layoutX="188.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient Login">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="messageText" layoutX="165.0" layoutY="217.0" textFill="#e80413" />
+      <Button fx:id="registerHere" layoutX="142.0" layoutY="314.0" mnemonicParsing="false" onAction="#RegisterHere_OnClick" text="New User? Register here" />
+      <Label layoutX="100.0" layoutY="23.0" text="Welcome to Mentcare!" textFill="#3819e8">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="186.0" layoutY="366.0" mnemonicParsing="false" onAction="#StaffLogin_OnClick" text="Staff Login" />
+   </children>
+</Pane>

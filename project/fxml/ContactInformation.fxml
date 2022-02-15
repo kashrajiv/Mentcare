@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mentcare4.ContactInformationController">
+   <children>
+      <TextField layoutX="35.0" layoutY="24.0" text="Contact Information">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="35.0" layoutY="82.0" prefHeight="25.0" prefWidth="84.0" text="First Name:" />
+      <TextField layoutX="35.0" layoutY="115.0" prefHeight="25.0" prefWidth="42.0" text="Age:" />
+      <TextField layoutX="210.0" layoutY="115.0" prefHeight="25.0" prefWidth="42.0" text="DOB:" />
+      <TextField layoutX="421.0" layoutY="115.0" prefHeight="25.0" prefWidth="42.0" text="Sex:" />
+      <TextField layoutX="35.0" layoutY="150.0" prefHeight="25.0" prefWidth="64.0" text="Address:" />
+      <TextField layoutX="35.0" layoutY="184.0" prefHeight="25.0" prefWidth="102.0" text="Home Number:" />
+      <TextField layoutX="314.0" layoutY="184.0" prefHeight="25.0" prefWidth="84.0" text="Cell Phone:" />
+      <TextField layoutX="35.0" layoutY="218.0" prefHeight="25.0" prefWidth="91.0" text="Blood Group:" />
+      <TextField layoutX="306.0" layoutY="218.0" prefHeight="25.0" prefWidth="102.0" text="Marital Status:" />
+      <TextField layoutX="35.0" layoutY="253.0" prefHeight="25.0" prefWidth="64.0" text="Email ID:" />
+      <TextField layoutX="314.0" layoutY="253.0" prefHeight="25.0" prefWidth="42.0" text="SSN:" />
+      <TextField layoutX="35.0" layoutY="310.0" prefHeight="25.0" prefWidth="137.0" text="Primary Care Provider:" />
+      <TextField layoutX="35.0" layoutY="345.0" prefHeight="25.0" prefWidth="137.0" text="Reffering Physician:" />
+      <TextField layoutX="35.0" layoutY="380.0" prefHeight="25.0" prefWidth="137.0" text="Preffered Pharmacy:" />
+      <TextField layoutX="35.0" layoutY="416.0" prefHeight="25.0" prefWidth="137.0" text="Emergency Contact:" />
+      <TextField layoutX="77.0" layoutY="450.0" prefHeight="25.0" prefWidth="91.0" text="Relationship:" />
+      <TextField layoutX="332.0" layoutY="450.0" prefHeight="25.0" prefWidth="57.0" text="Phone:" />
+      <TextField layoutX="40.0" layoutY="508.0" prefHeight="25.0" prefWidth="71.0" text="Insurance:" />
+      <TextField layoutX="41.0" layoutY="542.0" prefHeight="25.0" prefWidth="71.0" text="Employer:" />
+      <TextField layoutX="41.0" layoutY="576.0" prefHeight="25.0" prefWidth="84.0" text="Occupation:" />
+      <TextField fx:id="fname" layoutX="118.0" layoutY="82.0" prefHeight="25.0" prefWidth="206.0" />
+      <TextField fx:id="age" layoutX="83.0" layoutY="115.0" prefHeight="25.0" prefWidth="119.0" />
+      <TextField fx:id="dob" layoutX="258.0" layoutY="115.0" />
+      <TextField fx:id="sex" layoutX="471.0" layoutY="115.0" prefHeight="25.0" prefWidth="156.0" />
+      <TextField fx:id="address" layoutX="104.0" layoutY="150.0" prefHeight="25.0" prefWidth="522.0" />
+      <TextField fx:id="homenumber" layoutX="136.0" layoutY="184.0" prefHeight="25.0" prefWidth="170.0" />
+      <TextField fx:id="cellphone" layoutX="407.0" layoutY="184.0" prefHeight="25.0" prefWidth="222.0" />
+      <TextField fx:id="bloodgroup" layoutX="135.0" layoutY="218.0" prefHeight="25.0" prefWidth="156.0" />
+      <TextField fx:id="maritalstatus" layoutX="408.0" layoutY="218.0" prefHeight="25.0" prefWidth="222.0" />
+      <TextField fx:id="emailid" layoutX="104.0" layoutY="253.0" prefHeight="25.0" prefWidth="199.0" />
+      <TextField fx:id="ssn" layoutX="367.0" layoutY="253.0" prefHeight="25.0" prefWidth="262.0" />
+      <TextField fx:id="primarycareprovider" layoutX="178.0" layoutY="310.0" prefHeight="25.0" prefWidth="449.0" />
+      <TextField fx:id="referingphysician" layoutX="178.0" layoutY="345.0" prefHeight="25.0" prefWidth="449.0" />
+      <TextField fx:id="preferedpharmacy" layoutX="178.0" layoutY="380.0" prefHeight="25.0" prefWidth="449.0" />
+      <TextField fx:id="emergencycontact" layoutX="178.0" layoutY="416.0" prefHeight="25.0" prefWidth="449.0" />
+      <TextField fx:id="relationship" layoutX="178.0" layoutY="450.0" />
+      <TextField fx:id="phone" layoutX="397.0" layoutY="450.0" prefHeight="25.0" prefWidth="228.0" />
+      <TextField fx:id="insurance" layoutX="113.0" layoutY="508.0" prefHeight="25.0" prefWidth="511.0" />
+      <TextField fx:id="employer" layoutX="113.0" layoutY="542.0" prefHeight="25.0" prefWidth="511.0" />
+      <TextField fx:id="occupation" layoutX="129.0" layoutY="576.0" prefHeight="25.0" prefWidth="495.0" />
+      <Button layoutX="328.0" layoutY="26.0" mnemonicParsing="false" onAction="#LoadData_OnClick" text="Load" />
+      <TextField layoutX="335.0" layoutY="82.0" prefHeight="25.0" prefWidth="84.0" text="Last Name:" />
+      <TextField fx:id="lname" layoutX="418.0" layoutY="82.0" prefHeight="25.0" prefWidth="206.0" />
+      <Button layoutX="495.0" layoutY="26.0" mnemonicParsing="false" onAction="#Back_OnClick" text="Back" />
+   </children>
+</Pane>

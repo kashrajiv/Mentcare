@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mentcare4.DoctorDashboardController">
+   <children>
+      <Button layoutX="26.0" layoutY="72.0" mnemonicParsing="false" onAction="#EnterPatientVitals_OnClick" text="Enter Patient Vitals" />
+      <TextArea fx:id="messages" layoutX="323.0" layoutY="171.0" prefHeight="200.0" prefWidth="263.0" />
+      <Button layoutX="469.0" layoutY="384.0" mnemonicParsing="false" onAction="#View_OnClick" text="View" />
+      <Label layoutX="323.0" layoutY="145.0" text="View Messages" />
+      <Button layoutX="163.0" layoutY="72.0" mnemonicParsing="false" onAction="#MessageToPatient_OnClick" text="Send Message to Patient" />
+      <TextArea fx:id="appointmentList" layoutX="29.0" layoutY="189.0" prefHeight="200.0" prefWidth="255.0" />
+      <Label layoutX="29.0" layoutY="157.0" text="My Appointments" />
+      <Button layoutX="327.0" layoutY="72.0" mnemonicParsing="false" onAction="#ViewPatientVitals_OnClick" text="View Patient Vitals" />
+      <Label layoutX="188.0" layoutY="14.0" text="Staff Portal">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Button layoutX="133.0" layoutY="153.0" mnemonicParsing="false" onAction="#LoadAppointments_OnClick" text="Load Appointments" />
+      <Button layoutX="534.0" layoutY="16.0" mnemonicParsing="false" onAction="#Logout_OnClick" text="Logout" />
+      <Button layoutX="454.0" layoutY="72.0" mnemonicParsing="false" onAction="#AddAppointment_OnClick" text="Add Appointment" />
+   </children>
+</Pane>
